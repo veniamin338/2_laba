@@ -15,6 +15,7 @@ public:
 	void SetRe(double re_);
 	void SerIm(double im_);
 	TComplex operator + (TComplex& p);
+	
 	TComplex operator - (TComplex& p);
 	TComplex operator * (TComplex& p);
 	TComplex operator / (TComplex& p);
@@ -33,5 +34,6 @@ protected:
 
 
 };
+
 
 std::ostream& operator << (std::ostream& ostr_, TComplex& p);
