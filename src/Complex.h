@@ -5,7 +5,7 @@
 class TComplex
 {
 public:
-	TComplex();
+  TComplex();
 	TComplex(double re_, double im_);
 	TComplex(const TComplex& p);
 	double GetRe();
@@ -31,7 +31,6 @@ protected:
 	double im;
 	double mod;
 	double fi;
-
 
 };
 
